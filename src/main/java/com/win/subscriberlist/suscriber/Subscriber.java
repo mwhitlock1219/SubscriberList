@@ -10,6 +10,8 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+//THIS IS THE MODEL!
+
 // Designate our class as an Entity that the JPA should recognize
 @Entity
 public class Subscriber {

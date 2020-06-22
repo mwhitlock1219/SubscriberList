@@ -32,4 +32,7 @@ Where does it come from?
 * @CreationTimeStamp - sets the value of the field to the current time and date during creation (exactly once)
 
 ### Thymeleaf
+Thymeleaf a server-side Java templating engune for both web and standalone JAR apps
+
+Thymeleaf sits on top of existing HTML, so we can write HTML like normal and just add a few things to make it a thymeleaf template
 
