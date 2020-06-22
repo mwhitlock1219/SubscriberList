@@ -21,10 +21,10 @@ public class SubscriberController {
 
     private Subscriber subscriber;
 
-    // Takes te data entered in the form and adds it to the database
+    // Takes the data entered in the form and adds it to the database
     // POSTs the data then displays a new template called "result"
     @PostMapping
-    public String addNewSubscriber(Subscriber sunscriber, Model model) {
+    public String addNewSubscriber(Subscriber subscriber, Model model) {
         subscriberRepository.save(new Subscriber(subscriber.getFirstName(), subscriber.getLastName(),
                 subscriber.getUserName(), subscriber.getSignedUp()));
         model.addAttribute("firstName", subscriber.getFirstName());

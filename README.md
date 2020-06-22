@@ -36,3 +36,14 @@ Thymeleaf a server-side Java templating engune for both web and standalone JAR a
 
 Thymeleaf sits on top of existing HTML, so we can write HTML like normal and just add a few things to make it a thymeleaf template
 
+### Thymeleaf "Dialect" Basics
+
+- \${...} : Variable expressions
+- \*{...} : Selection expressions
+- #{...} : Message (i18n) expressions
+- @{...} : link (URL) expressions
+- ~{...} : Fragment expressions
+
+### Repository
+
+A repository is necessary in Spring applications.
